@@ -36,23 +36,6 @@ services:
       MYSQL_DATABASE: my_db
       MYSQL_USER: my_user
       MYSQL_PASSWORD: ()DSUF*()UY$P{()*YHEUW:DFHP(&T@$GRDS:FIOUN
-      MYSQL_ROOT_PASSWORD: )}DSFH{(*)#$HRN:EFW[90834yrp9[aerwUFGHBAQW;LIRTHY12]]}
+      MYSQL_ROOT_PASSWORD: example
     ports:
       - "3306:3306"
-  wordpress:
-    depends_on:
-      - db
-    image: wordpress:latest
-    ports:
-      - "8000:80"
-    volumes:
-      - ./wordpress:/var/www/html
-    restart: always
-    environment:
-      WORDPRESS_DB_HOST: db:3306
-      WORDPRESS_DB_USER: wpress_user
-      WORDPRESS_DB_PASSWORD: asdfhytw$:oerfihp(@&grefwHP94R3YAWFH []`0GHFAFDSU)
-      WORDPRESS_DB_NAME: wpress
-
-volumes:
-  db_data:
