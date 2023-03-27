@@ -51,7 +51,7 @@ services:
     environment:
       WORDPRESS_DB_HOST: db:3306
       WORDPRESS_DB_USER: wpress_user
-      WORDPRESS_DB_PASSWORD: asdfhytw$:oerfihp(@&grefwHP94R3YAWFH0GHFAFDSU)
+      WORDPRESS_DB_PASSWORD: asdfhytw$:oerfihp(@&grefwHP94R3YAWFH []`0GHFAFDSU)
       WORDPRESS_DB_NAME: wpress
 
 volumes:
